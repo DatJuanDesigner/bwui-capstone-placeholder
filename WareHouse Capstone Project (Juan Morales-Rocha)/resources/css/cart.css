@@ -45,6 +45,7 @@ input {
 }
 
 .product-item h3 {
+  text-weight:bold;
   margin-bottom: .75rem;
   color: hsla(0, 0%, 29%, 1);
 }
@@ -54,6 +55,7 @@ input {
 }
 
 .description {
+  font-size: 24px;
   padding: 1.5rem;
   text-align: left;
 }
@@ -71,6 +73,10 @@ input {
   padding: 0.875rem 5rem;
   border-radius: 54px;
   margin-left: 1rem;
+}
+
+#main .button:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 1020px) {
